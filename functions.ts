@@ -1,10 +1,7 @@
-export{}
-import {Person} from './interfaces'
-
 const helloWord = () => "Hello World";
 
-const add = (a:number,b:number):number => a+b;
-const subtract = (a:number,b:number):number => a-b;
+export const add = (a:number,b:number):number => a+b;
+export const subtract = (a:number,b:number):number => a-b;
 
 // Add a question mark after the param to denote the param is optional.
 // all optional params must come after the required params

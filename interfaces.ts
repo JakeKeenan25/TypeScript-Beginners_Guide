@@ -15,7 +15,7 @@ const peep2 = {
 	secondName: 'Keenan',
 }
 
-const fullName = (person:Person) => {
+export const fullName = (person:Person) => {
 	// if statment inside the string lateral
 	console.log(`${person.firstName} ${person.secondName} ${!person.age ? '':person.age}`);
 }
